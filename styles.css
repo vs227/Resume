@@ -48,6 +48,19 @@ body{
     cursor: pointer;
 }
 
+.pdf {
+    font-family: "Bitcount Grid Double", system-ui;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s, color 0.3s;
+}
+
+.pdf:hover{
+    color:red;
+}
+
 
 
 .nav-links {

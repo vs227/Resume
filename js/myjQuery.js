@@ -58,13 +58,15 @@ $(document).ready(function () {
   }
 
   // Optimize scroll event handling
-  $(window).on('scroll load', function () {
+ $(window).on('scroll load', function () {
     checkInView();
-  });
+});
 
-  document.getElementById('emiProject').addEventListener('click', function () {
+$('#emiProject').on('click', function () {
     window.open("https://vs227.github.io/LoanEMICal/", "_blank");
 });
+
+
 
 setInterval(() => {
       $('.loadingText').each(function () {
